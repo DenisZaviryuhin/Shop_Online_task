@@ -8,7 +8,7 @@ public class AppView {
  public String[] getData(){
      System.out.println("Enter client's name: ");
      String name = scanner.nextLine().trim();
-     System.out.println("Enter client's phone: ");
+     System.out.println("Enter client's phone number: ");
      String phone = scanner.nextLine().trim();
      System.out.println("Enter quantity , pcs.: ");
      String quantity = scanner.nextLine().trim();
